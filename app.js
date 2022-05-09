@@ -24,7 +24,7 @@ function generateComputerChoice() {
     computerChoice = 'paper';
   }
   if (randomNumber === 3) {
-    computerChoice = 'scissor';
+    computerChoice = 'scissors';
   }
   computerChoiceDisplay.innerHTML = computerChoice;
 }
